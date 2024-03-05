@@ -1,0 +1,237 @@
+/* color variables for easier to remember names and consistent theming */
+:root {
+    --primary: #233d8c;
+    --secondary: #81848f;
+    --pop: #873636;
+}
+
+/* Global reset - removes default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base body styles, setting font, text color, and background color */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+
+/* Header styles, including color, layout, and spacing */
+header {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+/* Shadow effect for header elements */
+header div {
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+}
+/* Styles for the main header title */
+header h1 {
+    color: var(--pop);
+    font-size: 40px;
+    font-weight: bold;
+    background-color: var(--secondary);
+    padding: 10px;
+    border: 5px solid var(--pop);
+}
+/* Anchor tag styles within the header */
+header a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+/* Navigation list styles */
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+/* Margin for navigation for spacing */
+header nav {
+    margin: 20px;
+}
+/* Styles for navigation links */
+header nav ul li a {
+    padding: 8px;
+    font-size: 28px;
+    margin: 20px 20px 0 0;
+    font-weight: bold;
+}
+/* Hover effect for navigation links */
+header nav ul li a:hover {
+    background: var(--pop);
+    color: var(--primary);
+    border-radius: 15px;
+}
+
+/* Styling for the hero section, including background image */
+.hero {
+    background-image: url("/assets/back.png");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* Hero image styling */
+.hero img {
+    height: 400px;
+}
+
+
+
+/* utility class styling start */
+.title {
+    border-right: 5px solid var(--pop);
+    min-height: 100%;
+    text-align: right;
+    padding-right: 40px;
+    min-width: 20%;
+    max-width: 20%;
+}
+
+.title h2 {
+    font-size: 48px;
+}
+
+/* utility class styling end */
+
+/* about me section styling start */
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 30px;
+}
+
+.about-me p {
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 1.6;
+    width: 90%;
+}
+/* about me section styling end */
+
+/* my work section styling start */
+.my-work {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary);
+}
+/* My Work title color */
+.my-work h2 {
+    color: var(--secondary);
+}
+/* Wrapper for the projects grid, controlling width and alignment */
+.projects-grid-wrapper {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+/* Grid layout for projects */
+.projects-grid {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
+/* Individual project item styles */
+.project {
+    border: solid;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+/* Hover effect for project items */
+.project:hover {
+    opacity: 1.0;
+}
+.work-day-scheduler {
+    background-image: url("../work-day-scheduler.png");
+}
+
+.password-generator {
+    background-image: url("../password.png");
+}
+
+.weather-dashboard {
+    background-image: url("/assets/weatherdashboard.png");
+}
+
+.js-quiz-app {
+    background-image: url("/assets/codequiz.png");
+}
+
+
+.project-label {
+    /*background-color: var(--secondary);*/
+    background-color: lightgray;;
+    color: var(--primary);
+    padding: 10px;
+}
+/* my work section styling end */
+
+/* contact me section styling start */
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-list {
+    width: 60%;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+footer ul li {
+    /*padding-bottom: 15px;*/
+    font-weight: bold;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: var(--primary);
+    padding: 8px;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    background: var(--pop);
+    color: var(--secondary);
+    border-radius: 15px;
+}
+/* contact me section styling end */
