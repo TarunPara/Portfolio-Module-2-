@@ -1,0 +1,51 @@
+# Tarun's Portfolio
+
+## Description
+
+This portfolio website is a showcase of my web development projects, highlighting my skills and accomplishments in the field. It features sections about me, my work, and how to contact me, all designed with a focus on responsiveness and user experience.
+
+## Features
+
+- **About Me**: An introduction to who I am, my background, and my expertise in web development.
+- **My Work**: Showcases my projects with a focus on the following key developments:
+  - **Work Day Scheduler**: An application to help organize and plan your workday.
+  - **Password Generator**: A tool that generates secure and customizable passwords.
+  - **Weather Dashboard**: An application that provides real-time weather updates and forecasts.
+  - **JavaScript Quiz Application**: An interactive quiz to test your JavaScript knowledge.
+- **Contact**: Offers information on how to get in touch with me.
+
+## Technologies Used
+
+- HTML
+- CSS
+  - Flexbox for layout
+  - Media queries for responsiveness
+  - CSS Variables for consistent styling
+
+## Live Site
+
+Visit my portfolio at [https://tarunpara.github.io/Portfolio-Module-2-/](https://tarunpara.github.io/Portfolio-Module-2-/).
+
+## Setup
+
+To view this project locally:
+
+1. Clone the repository: `git clone https://github.com/TarunPara/Portfolio-Module-2-.git`
+2. Open the `index.html` file in your browser.
+
+## Project Status
+
+This project is completed and will be updated with future projects and enhancements.
+
+## Acknowledgements
+
+- This project was developed as part of my web development learning journey.
+- Special thanks to everyone who supported and guided me through this process.
+
+## Contact
+
+Created by Tarun - feel free to contact me!
+
+## License
+
+This project is open source and available under the [MIT License](https://github.com/TarunPara/Portfolio-Module-2-/blob/main/LICENSE).
